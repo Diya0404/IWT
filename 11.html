@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image Map Example</title>
+  </head>
+  <body>
+    <h1>Image Map Example</h1>
+    <img src="4.jpg" height="200px" width="200px" alt="Image Map" usemap="#imagemap">
+    <map name="imagemap">
+      <area shape="rect" coords="0,0,100,100" href="http://www.google.com/" target="_blank">
+      <area shape="rect" coords="100,0,200,100" href="https://www.youtube.com/" target="_blank">
+      <area shape="rect" coords="0,100,100,200" href="http://www.gmail.com/" target="_blank">
+      <area shape="rect" coords="100,100,200,200" href="http://www.linkedin.com/" target="_blank">
+    </map>
+    <form>
+      <h2>Which object would you like to learn more about?</h2>
+      <label>
+        <input type="radio" name="object" value="object1">
+        Object 1
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="object" value="object2">
+        Object 2
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="object" value="object3">
+        Object 3
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="object" value="object4">
+        Object 4
+      </label>
+      <br><br>
+      <input type="submit" value="Learn More">
+    </form>
+  </body>
+</html>
